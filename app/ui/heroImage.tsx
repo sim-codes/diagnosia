@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function HeroImages(){
     return (
-        <div className="flex gap-2 w-2/4 justify-center">
+        <div className="flex gap-2 justify-center">
             <div className="grid grid-flow-row grid-rows-5 gap-2">
                 <div className="bg-[url('/doc1.png')] bg-no-repeat bg-center bg-cover row-span-3 min-w-[130px] min-h-[200px]
                 md:w-[230px] md:h-[300px] rounded-xl"></div>

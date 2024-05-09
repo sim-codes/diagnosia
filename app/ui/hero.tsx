@@ -15,11 +15,11 @@ export default function Hero() {
 
     return (
         <div className={
-            clsx("relative flex flex-row flex-wrap-reverse items-center group bg-transparent md:pl-10 gap-10 justify-center ",
+            clsx("relative flex flex-row flex-wrap-reverse items-center group bg-transparent md:pl-10 gap-10 justify-around ",
                 "transition-all 2s-ease-in duration-1000", loaded ? "left-0" : "-left-full"
             )
             }>
-            <div className="flex gap-3 flex-col p-10">
+            <div className="flex gap-3 flex-col p-10 bg-slate-400">
                 <h3 className="text-3xl font-bold text-wrap">
                     Uncovering <span className="text-[#0085FF]">Clarity:</span> <br className="hidden md:block" />
                     Find answers to your health concerns
