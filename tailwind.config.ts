@@ -8,10 +8,25 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      keyframes: {
+        moveBottom: {
+          to: {
+            left: "100%",
+            top: "100%",
+            transform: "translate(-100%,-100%)",
+          },
+        },
+        moveTop: {
+          to: {
+            right: "80%",
+            bottom: "80%",
+            transform: "translateX(-100%)",
+          },
+        },
+      },
+      animation: {
+        'move-bottom': 'moveBottom 15s linear infinite alternate',
+        'move-top': 'moveTop 15s linear infinite alternate',
       },
     },
   },
