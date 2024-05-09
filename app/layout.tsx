@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Diagnosia",
   description: "Find answers to your health concerns",
+  metadataBase: new URL('https://diagnosia-sim.vercel.app/'),
 };
 
 export default function RootLayout({
