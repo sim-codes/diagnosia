@@ -15,7 +15,7 @@ export default function Hero() {
 
     return (
         <div className={
-            clsx("relative flex flex-row flex-wrap-reverse items-center group bg-transparent md:pl-10 gap-10 justify-center md:justify-between",
+            clsx("relative flex flex-row flex-wrap-reverse items-center group bg-transparent md:pl-10 gap-10 justify-center ",
                 "transition-all 2s-ease-in duration-1000", loaded ? "left-0" : "-left-full"
             )
             }>
@@ -31,7 +31,7 @@ export default function Hero() {
 
                 <div className="md:flex gap-5 items-center">
                     <button 
-                        className="flex justify-between bg-[#0085FF] md:w-1/2 mb-2 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg">Book an appointment
+                        className="flex justify-between bg-[#0085FF] md:w-1/2 mb-2 hover:bg-blue-500 text-white font-bold py-4 px-8 rounded-lg">Book an appointment
                         <ArrowRightIcon className="w-6 h-6" />
                     </button>
 
@@ -40,7 +40,7 @@ export default function Hero() {
                             className="flex motion-safe:animate-spin items-center min-h-14 min-w-14
                             font-bold p-2 rounded-full border-2 border-zinc-400 border-dotted"
                         ></span>
-                        <div className="absolute left-2 place- text-white bg-blue-500 p-2 rounded-full">
+                        <div className="absolute left-2 place- text-white bg-[#0085FF] p-2 rounded-full">
                             <PlayIcon className="w-6 h-6" />
                         </div>
                         <p>Watch videos</p>

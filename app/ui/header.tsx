@@ -14,7 +14,7 @@
             </div>
 
             <button 
-            className="bg-[#0085FF] max-w-40 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="bg-[#0085FF] max-w-40 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded"
             >Log In
             </button>
         </nav>
